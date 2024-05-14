@@ -1,19 +1,20 @@
 import styled from 'styled-components'
 
 export const ContainerList = styled.div`
-    width: 1069px; 
+    width: 90%; 
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+
 `
 
 export const ContainerItems = styled.div`
     height: 100%;
     padding: 25px;
-    width: 80%;
     gap: 20px;
     display: flex;
-    margin-top: 5px;
+    width: 93%;
     position: relative;
     transition: all .5s;
     border-radius: 15px;
@@ -38,5 +39,10 @@ export const ContainerItems = styled.div`
     p:hover{
         color: red;
         transform: scale(1.5);
+    }
+    @media screen and (max-width: 890px){
+        label{
+            font-size: 12px;
+        }
     }
 `

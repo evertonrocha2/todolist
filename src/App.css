@@ -12,5 +12,18 @@ body{
 }
 .styleSvg svg{
   align-content: center;
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 890px) {
+  .styleSvg{
+    padding: 20px;
+    display: block;
+    box-sizing: border-box;
+
+  }
+  .styleSvg svg{
+    width: 80%;
+  }
 }
