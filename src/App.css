@@ -9,21 +9,21 @@ body{
 .styleSvg{
   background-color: #121214;
   border-radius: 15px;
+  padding: 0 !important;
+  height: 100% !important;
+  margin: 0 !important;
+  display: flex;
 }
 .styleSvg svg{
-  align-content: center;
   margin-top: 10%;
   margin-bottom: 10%;
+  padding: 25px;
+  align-self: center;
+  height: 90%;
+  width: 90%;
 }
 
-@media screen and (max-width: 890px) {
-  .styleSvg{
-    padding: 20px;
-    display: block;
-    box-sizing: border-box;
 
-  }
-  .styleSvg svg{
-    width: 80%;
-  }
+.textContainer{
+  padding:50px !important;
 }

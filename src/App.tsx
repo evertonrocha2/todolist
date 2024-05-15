@@ -43,7 +43,7 @@ function App() {
         </HeroParagraph>
       </HeroSection>
       <ObjSection>
-        <DivEstilizadas>
+        <DivEstilizadas className="textContainer">
           <h3>What is our objective?</h3>
           <p>
             Our goal is to make your journey easier and make your dream more

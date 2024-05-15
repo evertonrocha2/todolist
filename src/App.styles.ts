@@ -57,6 +57,7 @@ export const HeroSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 `
 
 export const ObjSection = styled.section`
@@ -67,21 +68,24 @@ export const ObjSection = styled.section`
   align-items: center;
   margin: 0 auto;
   border-radius: 15px;
-  font-family: 'JetBrains Mono';
+  box-sizing: border-box;
   @media screen and (max-width:890px){
     flex-direction: column;
   }
+  
 
   
 `
 
 export const DivEstilizadas = styled.div`
   width: 50%;
-  padding: 0 50px;
   height: 100%;
+  align-items: center;
+  justify-content: center;
+  
   h3{
     font-weight: bold;
-  font-size: 70px;
+  font-size: 60px;
   text-align: left;
   margin: 0;
   padding: 0;
@@ -93,9 +97,8 @@ export const DivEstilizadas = styled.div`
   font-size: 24px;
   text-align: left;
   padding: 0;
-  width: 90%;
   }
-  @media screen and (max-width:890px){
+  @media screen and (max-width:1000px){
    h3{font-size: 32px;
     width: 100%;
     padding: 0px;
@@ -111,10 +114,10 @@ export const DivEstilizadas = styled.div`
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: 20px;
   margin: 0;
   box-sizing: border-box;
   }
+
 `
 
 export const ContainerOfItems = styled.div`
@@ -127,6 +130,7 @@ export const ContainerOfItems = styled.div`
   font-family: 'JetBrains Mono';
   flex-direction: column;
   padding: 20px;
+  gap: 20px;
   font-family: 'Inter';
   font-weight: bold;
   color: #09090A;
